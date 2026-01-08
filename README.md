@@ -10,3 +10,7 @@ This is a Spring WebFlux backend that connects to a page on which we could do th
 Admin, User
 
 Currently the log in details are directly filled into the postgres table under "users" table.
+
+#Frontend
+
+https://github.com/remeshsv/airag-client
