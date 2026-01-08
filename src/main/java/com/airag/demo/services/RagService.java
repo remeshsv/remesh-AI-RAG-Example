@@ -24,7 +24,7 @@ public class RagService {
 
     public String ask(String question) {
         return chatClient.prompt()
-                .system("Answer using only the provided documents.")
+                .system("Answer using only the provided documents. For general questions ask user to use chat.")
                 .user(question)
                 .call()
                 .content();
